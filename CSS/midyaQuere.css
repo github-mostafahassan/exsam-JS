@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) { 
+    
+
+        aside{
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+            /* padding: 5px; */
+            font-size: 7px;
+            
+        }
+
+        aside .nav a{
+            font-size: 10px;
+        }
+
+        aside a{
+            font-size: 10px;
+        }
+
+        aside .text-1 h6{
+            font-size: 7px;
+        }
+
+        aside .text-1 a{
+            font-size: 7px;
+        }
+        aside i {
+            /* color: white; */
+            margin-top: 90%;
+        }
+
+
+
+        footer input{
+            width: 90%;
+        }
+    }

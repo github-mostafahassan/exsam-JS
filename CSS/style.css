@@ -1,0 +1,238 @@
+
+body{
+    background: #0d0d0d;
+    overflow: hidden;
+    
+}
+
+.lodengScren{
+    display: flex;
+}
+
+#btttn{
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: none;
+    cursor: pointer;
+
+}
+
+html , body{
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar{
+    width: 13px;
+}
+body::-webkit-scrollbar-track{
+    width: 13px;
+    background-color: #eee;
+}
+body::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+aside{
+    transform: translateX(-80%);
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.7s all;
+    z-index: 2;
+}
+
+
+.nav a{
+    color: white;
+    transition: 0.7s all;
+    font-size: 17px;
+    /* transform: translateY(100px); */
+    
+}
+
+
+.nav a:hover{
+    color: #6b0000e5;
+}
+
+
+aside .text-1 a{
+    font-size: 15px;
+    text-decoration: none;
+}
+aside .befor{
+    right: 0px;
+    width: 20%;
+    z-index: 99999999;
+}
+
+/* aside .cont{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+aside a{
+    font-size: 20px;
+}
+aside img{
+    width: 35%;
+    margin-left: 30%;
+}
+#searsh{
+    background: #000;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+}
+
+
+
+.open, .xmark{
+
+    cursor: pointer;
+
+}
+
+.xmark{
+    display: none;
+}
+
+
+.innar{
+    height: 450px;
+    border-radius: 20px; 
+    transition:0.8s all;
+    overflow: hidden;
+    z-index:1;
+}
+
+.innar .innar-1{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+}
+
+.innar img{
+    transition:0.9s 0.05s  all;
+    
+}
+
+.innar:hover img{
+    cursor: pointer;
+    transform: scale(1.3) rotate(8deg); 
+}
+
+.text{
+    left: 10px;
+    z-index: 9999999999;
+
+}
+
+.text h2{
+    transform: translateY(-120%);
+    transition: 0.8s all;
+}
+
+
+.innar:hover .text h2{
+
+    transform: translateY(0px);
+}
+
+
+.text p {
+    transform: translateX(-120%);
+    transition-duration: 0.9s;
+    transition-delay: 0.2s;
+}
+
+.innar:hover .text p{
+    transform: translateX(0);
+}
+
+
+
+
+.text h6 {
+    transform: translateX(-120%);
+    transition-duration: 0.9s;
+    transition-delay: 0.5s;
+}
+
+.innar:hover .text h6{
+    transform: translateX(0);
+}
+
+.start{
+    transform: translateX(-100%);
+    transition-duration: 0.9s;
+    transition-delay: 0.7s;
+}
+
+.innar:hover .start{
+    transform: translateX(0);
+}
+
+
+.start i{
+    color: darkgoldenrod;
+}
+.avrage{
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-145%);
+    transition-duration: 0.9s;
+    transition-delay: 0.9s;
+}
+
+.innar:hover .avrage{
+    transform: translateX(0);
+}
+
+.avrage h3{
+    font-size: 15px;
+}
+
+
+
+footer input{
+
+    width: 45%;
+    border: none;
+    outline: none;
+    color: white;
+    background: transparent;
+    border-bottom: 2px solid rgb(110, 110, 110);
+}
+
+footer input::placeholder{
+    text-align: center;
+}
+
+footer .btn{
+background: #000;
+color: white;
+transition: 0.7s all;
+}
+
+footer .btn:hover{
+    background: #ffffff;
+    color: #000;
+}
